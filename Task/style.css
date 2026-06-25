@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F2F3;
+    padding: 10px 0;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+input {
+    border: none;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+}
+.search {
+    display: flex;
+}
+.btn {
+    width: 80px;
+    background-color: #FF3B96;
+    color: white;
+    border: none;
+}
+.card {
+    border: 1px solid #edf1f7;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+img {
+    width: 240px;
+    height: 200px;
+}
+.price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.price-1 {
+    color: #FF3B96; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price-2 {
+    color: gray; 
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.price-3 {
+    padding: 0 5px;
+    background-color: #FFD740; 
+    font-weight: bold;
+}
+.about {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+.button-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    color: #FF3B96;
+    background-color: #FEF2F8;
+    padding: 5px 0;
+}
+
+.button-3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFBFF;
+}
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
