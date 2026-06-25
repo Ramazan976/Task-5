@@ -32,6 +32,7 @@ input {
     border: none;
 }
 .card {
+    background-color: white;
     border: 1px solid #edf1f7;
     width: 300px;
     display: flex;
